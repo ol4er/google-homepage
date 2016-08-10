@@ -1,0 +1,128 @@
+html {
+    display: block;
+    
+}
+body {
+    display: block;
+   font-family: arial, sans-serif;
+    width: 100%;
+    
+}
+
+#nav {
+   
+}
+#nav ul { list-style: none;
+    margin: 10px 0 0 0;
+    
+    padding: 0;
+    
+}
+#nav li {
+    display: inline;
+    float: right;
+    margin: 0 27px 0 0;
+    font-size: 14px;
+    color: #000;
+}
+#nav a {
+    text-decoration: none;
+    line-height: 25px;
+}
+#nav a:hover {
+    text-decoration: underline;
+}
+.signin {
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    background-image:  -webkit-linear-gradient(top,#4387fd,#4683ea);
+    height: 27px;
+}
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    width: 100%;
+    text-align: center;
+    min-width: 450px;
+    position: absolute;
+}
+
+.input { border: 1px solid #e4e4e4;
+        background-color: #e4e4e4;
+        font-weight: bold;
+    font-size: 13px;
+        height: 37px;
+        box-sizing: border-box;
+        padding: 4px 12px 6px;
+       margin: 11px 4px;
+       color: #757575;
+    
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 45px;
+    width: 100%;
+   
+    font-size: 10pt;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 44px;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#footer li {
+        display: inline;
+        width: 120px;
+        padding: 20px;
+        
+}
+.f1 {
+    display: block;
+    white-space: nowrap;
+    float: left;
+   
+}
+
+.f2 {
+    display: block;
+    padding: 0;
+
+}
+.f2 ul {
+    float: right;
+    }
+
+
+.search {
+    border: 1px solid #e4e4e4;
+    width: 500px;
+    height: 25px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    outline: none;
+}
+.name {
+    height: 200px;
+    width: auto;
+}
