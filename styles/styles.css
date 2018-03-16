@@ -1,6 +1,8 @@
-html {
-    display: block;
+* {
+    padding: 0;
+    margin: 0;
 }
+
 body, html, input, .std, h1 {
     font-size: small;
     font-family: arial,sans-serif;
@@ -127,12 +129,13 @@ body {
 .header {
    background-color: #fafafa;
     border-bottom: 1px solid #ebebeb;
-    height: 120px;
+    height: 110px;
     position: absolute;
     width: 100%;
     min-width: 1100px;
     left: 0;
     top: 0;
+    
 }
 #logo {
     position: absolute;
@@ -182,11 +185,12 @@ body {
     background: #fafafa;
     color: #666;
     font-size: 13px;
-    margin-top: 21px;
+    margin-top: 11px;
     outline-width: 0;
     outline: none;
     position: relative;
     z-index: 102;
+    margin-left: 150px
     
 }
 #nav_left li {
@@ -257,11 +261,73 @@ display: block;
     color: white;
 }
 
-##section
-.left
-.main
-.results
-.date
-cite
+.section {
+    float: left;
+    display: block;
+    margin-top: 130px;
+    margin-left: 153px;
+    max-width: 685px;
+    padding: 0;
+}
+.section a, li {
+    display: block;
+    padding: 0;
+}
+.bulk {
+    padding: 0;
+    margin: 0;
+}
+.bulk p {
+    color: #808080;
+    
+}
+#results a {
+    padding-top: 20px;
+    color: #1a0dab;
+    font-size: 18px;
+}
+#results p {
+    padding-top: 5px;
+    color: #545454;
+    line-height: 1.4;
+}
+#results  {
+    padding-top: 5px;
+    color: #222;
+    height: auto;
 
+}
+cite {
+    color: #006621;
+    font-size: 14px;
+    font-style: normal;
+}
+#related {
+    margin-top: 60px;
+}
+.related {
+    color: #222;
+    height: auto;
+    padding-bottom: 8px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+}
 
+tbody {
+    padding: 0 16px;
+    padding-top: px;
+}
+tbody a {
+    color: #1a0dab;
+    text-decoration: none;
+    padding: 3px 32px 3px 0;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+tbody a:hover {
+    text-decoration: line-through;
+}
