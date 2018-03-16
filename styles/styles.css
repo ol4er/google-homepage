@@ -127,7 +127,7 @@ body {
 
 /*results styles*/
 .header {
-   background-color: #fafafa;
+    background-color: #fafafa;
     border-bottom: 1px solid #ebebeb;
     height: 110px;
     position: absolute;
@@ -330,4 +330,50 @@ tbody a {
 
 tbody a:hover {
     text-decoration: line-through;
+}
+.pages {
+    margin-top: 30px;
+    
+margin-left: 300px
+}
+.pages p {
+    color: #4285f4;
+}
+footer {
+    background-color: #f2f2f2;
+position: absolute;
+    margin-top: 1800px;
+    height: 120px;
+    position: absolute;
+    width: 100%;
+    min-width: 1100px;
+    left: 0;        
+border-top: 1px solid #e4e4e4;
+}
+.foot ul {
+    display: block;
+    width: 202px;
+    height: auto;
+    padding: 18px;
+    list-style-type: none;
+    margin-left: 80px;
+    
+}
+.foot li {
+    list-style-type: none;
+    margin: 0;
+    padding 0;
+    display: block;
+    width: 200px;
+}
+.foot p {
+    color: #666;
+    list-style-type: none;
+    margin-top: 3px;
+    margin-left: 30px;
+
+}
+.foot a {
+    color: #777;
+    
 }
